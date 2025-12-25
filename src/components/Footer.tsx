@@ -1,4 +1,4 @@
-import { GraduationCap, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { GraduationCap, Instagram, MessageCircle } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,17 +16,21 @@ export function Footer() {
               Your trusted partner for international education. We help students secure admissions and scholarships in universities worldwide.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors">
+              <a 
+                href="https://www.instagram.com/_amigos_agency_/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors">
-                <Linkedin className="w-5 h-5" />
+              <a 
+                href="https://wa.me/905527877116" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-[#456882] dark:bg-[#1B3C53] rounded-full flex items-center justify-center hover:bg-[#D2C1B6] hover:text-[#1B3C53] transition-colors"
+              >
+                <MessageCircle className="w-5 h-5" />
               </a>
             </div>
           </div>

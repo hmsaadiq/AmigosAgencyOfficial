@@ -96,8 +96,8 @@ export function CTA() {
                   <Phone className="w-6 h-6 text-[#1B3C53] dark:text-[#F9F3EF]" />
                 </div>
                 <div>
-                  <div className="text-[#1B3C53] dark:text-[#F9F3EF] mb-1">Call Us</div>
-                  <div className="text-[#456882] dark:text-[#D2C1B6]">+90 5527877116</div>
+                  <div className="text-[#1B3C53] dark:text-[#F9F3EF] mb-1">WhatsApp</div>
+                  <div className="text-[#456882] dark:text-[#D2C1B6]">+90 552 787 71 16</div>
                 </div>
               </div>
               
